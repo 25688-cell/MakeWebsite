@@ -13,6 +13,13 @@
   justify-content: center;
   align-items: center;
 }
+.maker img{
+  position: absolute;
+  bottom: 5px;
+  left: 1820px;
+  width: 4%;
+  height: auto;
+}
 body{
   margin: 0;
 }
@@ -35,12 +42,7 @@ body{
 }
 /* Second page */
 .page-color {
-  margin-top: -5px;
   background-color: #F4EFEA;;
-  width: 100%;
-  min-height: 100vh;
-  padding-bottom: 50px;
-  box-sizing: border-box;
 }
 .columns-infos {
   position: relative;
@@ -58,7 +60,6 @@ body{
   width: 455px;
   height: 500px;
   overflow: hidden; 
-  background-color: transparent;
 }
 .image h2 {
   background-color: #FFFFFF;
@@ -70,6 +71,52 @@ body{
   text-align: center;
   font-family: 'Lora';
   font-size: 100px;
+  color: #8B3A2B;
+  margin-top: 0px;
+}
+/* Third page */
+.side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;
+  width: 80%; 
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 7%;
+}
+.text {
+    font-size: 1.25em;
+    text-align: justify;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.text1 {
+  width: 1020px;
+  height: 300px; 
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-sizing: border-box; 
+  font-size: 1.25em;
+}
+.text h2 {
+    margin-top: -5px;
+}
+.image2 img {
+  display: block;
+  width: 455px;
+  height: 300px;
+  overflow: hidden; 
+}
+.image1 img {
+  display: block;
+  width: 455px;
+  height: 300px;
+  overflow: hidden; 
+}
+.side-by-side h2 {
+  text-align: center;
+  font-family: 'Lora';
+  font-size: 50px;
   color: #8B3A2B;
   margin-top: 0px;
 }
