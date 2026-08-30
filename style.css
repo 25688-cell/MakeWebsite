@@ -5,7 +5,7 @@
   background-color: rgba(65, 97, 24, 0.3);
   bottom: 250px;
   color: #FDFBF7;
-  font-size: 100px;
+  font-size: 150px;
   width: 100%;
   height: 40%; 
   font-family: 'Lora', serif;
@@ -68,7 +68,7 @@ body{
   padding: 30PX;
   text-align: center;
 }
-.page-color h1 {
+h1 {
   text-align: center;
   font-family: 'Lora';
   font-size: 100px;
@@ -92,12 +92,11 @@ body{
     border-radius: 12px;
 }
 .text1 {
-  width: 1020px;
-  height: 300px; 
+  width: 885px;
+  height: auto; 
   background-color: #ffffff;
   border-radius: 12px;
   box-sizing: border-box; 
-  font-size: 1.25em;
 }
 .text h2 {
     margin-top: -5px;
@@ -105,14 +104,15 @@ body{
 .image2 img {
   display: block;
   width: 455px;
-  height: 300px;
+  height: 330px;
   overflow: hidden; 
   border-radius: 12px;
 }
 .image1 img {
+  margin-left: -5px;
   display: block;
   width: 455px;
-  height: 300px;
+  height: auto;
   overflow: hidden; 
   border-radius: 12px;
 }
@@ -133,4 +133,62 @@ body{
 /* Fourth page */
 .page-color2{
   background: linear-gradient(rgb(251, 244, 236) 36%, rgb(255, 122, 41) 82%);
+  min-height: 1200px; /* Forces the orange background to stretch fully */
+  padding-bottom: 50px; /* Gives extra space under the bottom photos */
+}
+.images {
+  position: relative;
+  width: 100%;
+  max-width: 900px;   
+  height: 600px; 
+  margin-left: 590px;
+  position: relative;
+}
+.photo1 {
+  position: absolute;
+  top: 0;
+  left: -380px;
+  width: 500px;
+  height: auto;
+  z-index: 2;
+}
+.photo2 {
+  top: 13px;
+  left: 80px;
+  height: auto;
+  width: 650px;
+  z-index: 1;
+  position: absolute;
+}
+.photo3 {
+  bottom: 100px;
+  right: -180px;
+  height: auto;
+  width: 430px;
+  z-index: 3;
+  position: absolute;
+}
+.photo4 {
+  top: 500px;
+  left: -380px;
+  height: auto;
+  width: 700px;
+  z-index: 4;
+  position: absolute;
+}
+.photo5 {
+  top: 500px;
+  left: 250px;
+  height: auto;
+  width: 490px;
+  z-index: 5;
+  position: absolute;
+}
+.photo6 {
+  bottom: -420px;
+  right: -180px;
+  height: auto;
+  width: 460px;
+  z-index: 6;
+  position: absolute;
 }
