@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.maker img {
+.maker img { /* added an image of the aurthor */
   position: absolute;
   bottom: 5px;
   left: 1820px;
@@ -23,11 +23,11 @@
   height: auto;
 }
 
-body {
+body { /* removed the white line at the right side */
   margin: 0;
 }
 
-.made-by {
+.made-by { /* Added the heading */
   position: absolute;
   bottom: 0;
   width: 30%;
@@ -40,7 +40,7 @@ body {
   text-align: left;
 }
 
-.made-by h2 {
+.made-by h2 { /* added the author name */
   margin-top: 5px;
   margin-right: 0;
   margin-bottom: 5px;
