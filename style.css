@@ -133,8 +133,8 @@ h1 {
 /* Fourth page */
 .page-color2{
   background: linear-gradient(rgb(251, 244, 236) 36%, rgb(255, 122, 41) 82%);
-  min-height: 1200px; /* Forces the orange background to stretch fully */
-  padding-bottom: 50px; /* Gives extra space under the bottom photos */
+  min-height: 1200px; 
+  padding-bottom: 50px; 
 }
 .images {
   position: relative;
