@@ -66,6 +66,7 @@ body {
 }
 
 .image img {
+  border: 5px solid #8b3a2b;
   display: block;
   width: 455px;
   height: 500px;
@@ -73,6 +74,7 @@ body {
 }
 
 .image h2 {
+  border: 5px solid #8b3a2b;
   margin-top: 0;
   padding: 30px;
   background-color: #fff;
@@ -119,6 +121,7 @@ h1 {
 }
 
 .image2 img {
+  border: 5px solid #8b3a2b;
   display: block;
   width: 455px;
   height: 330px;
@@ -127,6 +130,7 @@ h1 {
 }
 
 .image1 img {
+  border: 5px solid #8b3a2b;
   margin-left: -5px;
   display: block;
   width: 455px;
