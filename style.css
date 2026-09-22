@@ -49,11 +49,12 @@ h1 {
   justify-content: center;
   position: absolute;
   width: 100%;
+  transform: translateY(75%);
   padding: 20px 0;
   background-color: rgba(65, 97, 24, 0.3);
   color: #fdfbf7;
   font-family: 'Lora', serif;
-  font-size: clamp(60px, 10vw, 150px);
+  font-size: clamp(30px, 10vw, 150px);
   text-align: center;
 }
 
