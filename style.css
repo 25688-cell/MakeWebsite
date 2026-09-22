@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.maker img { /* added an image of the aurthor */
+.author img { /* added an image of the aurthor */
   position: absolute;
   bottom: 5px;
   left: 1820px;
@@ -50,7 +50,7 @@ body { /* removed the white line at the right side */
 /* Second page */
 
 .page-color {
-  background-color: #f4efea;
+  background-color: #f4efea; /* give background colour */
 }
 
 .columns-infos {
@@ -62,7 +62,7 @@ body { /* removed the white line at the right side */
   margin-top: 100px;
   margin-right: auto;
   margin-bottom: 0;
-  margin-left: 3%;
+  margin-left: 7%;
 }
 
 .image img {
@@ -74,7 +74,6 @@ body { /* removed the white line at the right side */
 }
 
 .image h2 {
-  border: 5px solid #8b3a2b;
   margin-top: 0;
   padding: 30px;
   background-color: #fff;
@@ -99,7 +98,7 @@ h1 {
   margin: 30px auto auto 7%;
 }
 
-.text {
+.text_left {
   border-radius: 12px;
   background-color: #fff;
   width: 1020px;
@@ -108,7 +107,7 @@ h1 {
   text-align: justify;
 }
 
-.text1 {
+.text_right {
   box-sizing: border-box;
   width: 1020px;
   height: auto;
@@ -116,12 +115,11 @@ h1 {
   background-color: #fff;
 }
 
-.text h2 {
+.text_left h2 {
   margin-top: -5px;
 }
 
-.image2 img {
-  border: 5px solid #8b3a2b;
+.image_right img {
   display: block;
   width: 455px;
   height: 330px;
@@ -129,8 +127,7 @@ h1 {
   border-radius: 12px;
 }
 
-.image1 img {
-  border: 5px solid #8b3a2b;
+.image_left img {
   margin-left: -5px;
   display: block;
   width: 455px;
