@@ -96,6 +96,7 @@ h1 {
   gap: 50px;
   width: 80%;
   margin: 30px auto auto 7%;
+  margin-left: 10%;
 }
 
 .text_left {
@@ -166,7 +167,7 @@ h1 {
   width: 100%;
   max-width: 900px;
   height: 600px;
-  margin-left: 520px;
+  margin-left: 33%;
 }
 
 .photo1 {
